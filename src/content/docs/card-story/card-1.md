@@ -5,29 +5,29 @@ description: "Whatever"
 ## Flower Yaoi
 
 <div class="icon"><span class="name">Yumehisa</span>
-<img src="/tasohote-tsubomi/src/assets/icons/logicon_yumehisa_b.png">
+<img src="/tasohote-tsubomi/src/assets/icons/logicon_yumehisa_b.png"/>
 </div>
 <div class="text">
 Hello, I'm Yumehisa. Nice to meet you.
 </div>
 
 <div class="line">
-<img src="/tasohote-tsubomi/src/assets/missionpass_item_line.png">
+<img src="/tasohote-tsubomi/src/assets/missionpass_item_line.png"/>
 </div>
 
 <div class="icon"><span class="name">Yuuran</span>
-<img src="/tasohote-tsubomi/src/assets/icons/logicon_yuran_b.png">
+<img src="/tasohote-tsubomi/src/assets/icons/logicon_yuran_b.png"/>
 </div>
 <div class="text">
 Hello, Yumehisa. My name is Yuuran.
 </div>
 
 <div class="line">
-<img src="/tasohote-tsubomi/src/assets/missionpass_item_line.png">
+<img src="/tasohote-tsubomi/src/assets/missionpass_item_line.png"/>
 </div>
 
 <div class="icon"><span class="name">Yumehisa</span>
-<img src="/tasohote-tsubomi/src/assets/icons/logicon_yumehisa_b.png">
+<img src="/tasohote-tsubomi/src/assets/icons/logicon_yumehisa_b.png"/>
 </div>
 <div class="text">
 Hehe. Yay
