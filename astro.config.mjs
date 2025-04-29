@@ -39,6 +39,7 @@ export default defineConfig({
                     // Each item here is one entry in the navigation menu.
                     { label: 'Card Story 1', slug: 'card-story/card-1' },
                     { label: 'Card Story 2', slug: 'card-story/card-2' },
+					{ label: 'Card Story 31', slug: 'card-story/card-31' },
                 ],
             },
             {
