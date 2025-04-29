@@ -4,7 +4,7 @@ import starlight from '@astrojs/starlight';
 
 // https://astro.build/config
 export default defineConfig({
-	site: 'https://blooshiez.github.io/tasohote-tsubomi/',
+	site: 'https://blooshiez.github.io/',
 	integrations: [
 		starlight({
 			title: 'Tasotsubo EN',
