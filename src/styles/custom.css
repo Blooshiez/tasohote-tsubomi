@@ -1,0 +1,68 @@
+/* Dark mode colors. */
+:root {
+	--sl-color-accent-low: #23194c;
+	--sl-color-accent: #6c2bf8;
+	--sl-color-accent-high: #c4c0ff;
+	--sl-color-white: #ffffff;
+	--sl-color-gray-1: #edecf7;
+	--sl-color-gray-2: #c1c0ce;
+	--sl-color-gray-3: #8989a1;
+	--sl-color-gray-4: #56556c;
+	--sl-color-gray-5: #37354b;
+	--sl-color-gray-6: #252438;
+	--sl-color-black: #171720;
+}
+/* Light mode colors. */
+:root[data-theme='light'] {
+	--sl-color-accent-low: #d3d1ff;
+	--sl-color-accent: #6e2ffb;
+	--sl-color-accent-high: #321e71;
+	--sl-color-white: #171720;
+	--sl-color-gray-1: #252438;
+	--sl-color-gray-2: #37354b;
+	--sl-color-gray-3: #56556c;
+	--sl-color-gray-4: #8989a1;
+	--sl-color-gray-5: #c1c0ce;
+	--sl-color-gray-6: #edecf7;
+	--sl-color-gray-7: #f6f6fb;
+	--sl-color-black: #ffffff;
+}
+
+.icon {
+  position: relative;
+  text-align: center;
+  width: 70px;
+}   
+
+.name {
+    padding-top: 3.5px;
+	text-align: left;
+    font-size: 0.8em;
+    font-weight: bold;
+    display: block;
+    width:90%;
+    position: absolute;
+	bottom: 35px;
+	left: 87px;
+    z-index: 1;
+    color: rgb(235, 194, 141);
+    text-shadow: 0 0 2.5px #000, 0 0 2.5px #000,0 0 2.5px #000,0 0 2.5px #000,0 0 2.5px #000;
+  }
+
+.line {
+	position:absolute;
+	margin-top:-10px;
+	margin-right:0px;
+	z-index:1;
+	width:75%;
+	height:80px;
+}
+
+.text {
+	position:relative;
+	margin-top:-30px;
+	margin-right:0px;
+	z-index:1;
+	margin-left:87px;
+	width:75%;
+	height:80px;}
