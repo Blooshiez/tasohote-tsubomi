@@ -2,14 +2,18 @@
 title: "Something SOmething"
 description: "Whatever"
 ---
+import { Image } from 'astro:assets';
+import Yumehisa_B from '/src/assets/icons/logicon_yumehisa_b.png';
+import Line from '/src/assets/missionpass_item_line.png';
+
 ## Flower Yaoi
 
-<div class="icon"><span class="name">Yumehisa</span>![Yumehisa Icon](/tasohote-tsubomi/src/assets/icons/logicon_yumehisa_b.png)</div>
+<div class="icon"><span class="name">Yumehisa</span><Image src={Yumehisa_B} alt="Yumehisa Icon B"/></div>
 <div class="text">
 Hello, I'm Yumehisa. Nice to meet you.
 </div>
 
-<div class="line"><img src="/tasohote-tsubomi/src/assets/missionpass_item_line.png"/></div>
+<div class="line"><Image src={Line} alt="Linebreak"/></div>
 
 <div class="icon"><span class="name">Yuuran</span><img src="/tasohote-tsubomi/src/assets/icons/logicon_yuran_b.png"/></div>
 <div class="text">
@@ -20,7 +24,7 @@ Hello, Yumehisa. My name is Yuuran.
 
 <div class="icon"><span class="name">Yumehisa</span><img src="/tasohote-tsubomi/src/assets/icons/logicon_yumehisa_b.png"/></div>
 <div class="text">
-Hehe. Yay
+Hehe. Yay 
 </div>
 
 :::caution
