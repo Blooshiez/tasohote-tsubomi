@@ -42,17 +42,6 @@ export default defineConfig({
 					{ label: 'Card Story 31', slug: 'card-story/card-31' },
                 ],
             },
-            {
-                label: 'Guides',
-                items: [
-                    // Each item here is one entry in the navigation menu.
-                    { label: 'Example Guide', slug: 'guides/example' },
-                ], 
-            },
-            {
-                label: 'Reference',
-                autogenerate: { directory: 'reference' },
-            },
         ],
 		}), mdx()],
 });
