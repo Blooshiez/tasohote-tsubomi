@@ -52,34 +52,37 @@
 
 .line {
 	position:relative;
-	margin-bottom:-30px;
+	margin-bottom:0px;
+	width: 0%;
 	top:20px;
+	right: 0%;
 	margin-top:0px;
 	margin-right:0px;
-	z-index:1;
+	z-index:999;
 	width:90%;
 	height:80px;
 }
 
 .text {
-	position:absolute;
-	margin-top:-35px;
+	position:relative;
+	margin-top: -35px;
 	margin-right:0px;
-	z-index:1;
+	margin-bottom: 1%;
+	z-index:999;
 	margin-left:87px;
-	width:75%;
-	height:80px;}
+	width:60%;
+	height: 100%;}
 
 .blanktext {
-	text-align: left;
-	display: flex;
-	justify-content: flex-start;
-	align-items: center;
-	position:relative;
-	margin-top:-35px;
-	margin-right:50px;
-	margin-left:50px;
-	margin-bottom:-10px;
-	z-index:1;
-	width:75%;
-	height:90px;}
+    text-align: left;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    position:relative;
+    margin-top:-35px;
+    margin-right:50px;
+    margin-left:50px;
+    margin-bottom:-10px;
+    z-index:1;
+    width:75%;
+    height:90px;}
